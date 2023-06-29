@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: #0C0C0C;
     color: #FAFAFA;
@@ -11,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10% 15%;
+    padding: 10% 16% 6%;
 }
 
 .container__conteudo {
@@ -71,4 +70,13 @@ body {
 .botoes__link:hover {
     background-color: #272727;
     padding: 2.2%;
+}
+
+.rodape {
+    background-color: #22D4FD;
+    color: #0C0C0C;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
 }
