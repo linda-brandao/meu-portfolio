@@ -6,11 +6,28 @@ body {
     color: #FAFAFA;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menu__link {
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10% 16% 6%;
+    padding: 5% 15%;
 }
 
 .container__conteudo {
